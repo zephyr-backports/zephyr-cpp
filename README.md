@@ -2,8 +2,10 @@
 
 This is **not** a new zephyr-cpp. It is `ZephyrProtocol/zephyr-cpp` at its base commit
 (`4a99272`, the state the Zephyr v2.3.0 wallets were built from) plus a small number of security
-fixes cherry-picked from `woodser/monero-cpp`, the project it is derived from. Tags mirror the
-zephyr fork: `vX.Y.Z-sec.N`.
+fixes cherry-picked from `woodser/monero-cpp`, the project it is derived from. Tags are `vX.Y.Z-sec.N`:
+`vX.Y.Z` is the Zephyr release these wallets belong to, N counts this fork's own backport batches and is
+not kept in step with the zephyr fork's N. Which zephyr tag goes with which zephyr-cpp tag is listed as a
+release set in the home repository and recorded in the WASM build manifest.
 Full policy: https://github.com/zephyr-backports/zephyr-backports (docs/POLICY.md).
 
 Rules, in short:
